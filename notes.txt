@@ -1,0 +1,13 @@
+
+- setup as a proper python project
+- Accept some kind of CONFIG file
+- Discover all the .md files in a "source" directory
+- Extract meta data from those files (system and prelude)
+    - Keep folder context for blog layout
+    - Keep title context for article information
+- Transform markdown -> HTML Pieces -> Reassemble HTML -> .html/.pdf
+    - Find some way to support ICONS and PICTURES
+    - Find some way to support manual page breaks
+- Template support?
+- Simple file server?
+- Live reloading?
