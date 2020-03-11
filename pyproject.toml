@@ -9,11 +9,10 @@ license = "MIT"
 python = "^3.8"
 mistune = {git = "https://github.com/lepture/mistune.git"}
 pygments = "^2.6.1"
-click = "^7.1.1"
-toolz = "^0.10.0"
 toml = "^0.10.0"
 ujson = "^2.0.1"
 jinja2 = "^2.11.1"
+jsonschema = "^3.2.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.3.5"
@@ -23,7 +22,7 @@ mypy = "^0.761"
 
 [tool.black]
 line-length = 96
-target-version = ['py37']
+target-version = ['py38']
 include = '\.pyi?$'
 exclude = '''
 (

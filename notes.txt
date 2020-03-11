@@ -11,3 +11,5 @@
 - Template support?
 - Simple file server?
 - Live reloading?
+- create an "init" that builds the correct folder structure
+    - this needs to be composable for unit testing
