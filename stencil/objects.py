@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
-# 
+#
 # >>
 #   stencil-blog, 2020
 #   - blake
@@ -20,7 +20,6 @@ class Validation(NamedTuple):
     @property
     def success(self):
         return not self.errors
-
 
 
 @dataclass
@@ -51,7 +50,7 @@ class MarkdownFile:
         self.extension = os.path.splitext(self.filename)[-1]
         self.created = datetime.fromtimestamp(os.stat(self.fullpath).st_ctime)
         self.modified = datetime.fromtimestamp(os.stat(self.fullpath).st_mtime)
-        self.is_index = self.filename.startswith('index.')
+        self.is_index = self.filename.startswith("index.")
 
     @property
     def size(self) -> int:

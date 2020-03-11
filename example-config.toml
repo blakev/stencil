@@ -1,2 +1,3 @@
 source = "/tmp/source"
 destination = "/tmp/destination"
+templates = "{{source}}/templates"

@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
-# 
+#
 # >>
 #   stencil-blog, 2020
 #   - blake
@@ -19,6 +19,7 @@ class Meta:
     These values should be used to format and generate the content of the
     blog post.
     """
+
     file: Dict
     static: Dict
     stencil: Dict
@@ -28,5 +29,6 @@ class Meta:
 class Post:
     """Individual blog entry.
     """
+
     raw_content: str
     meta: Meta = field(init=False)
