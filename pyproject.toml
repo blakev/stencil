@@ -16,7 +16,7 @@ jsonschema = "^3.2.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.3.5"
-black = "^19.10b0"
+black = "^24.3"
 tox = "^3.14.5"
 mypy = "^0.761"
 
